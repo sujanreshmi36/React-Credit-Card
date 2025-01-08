@@ -84,4 +84,44 @@ form .info-message{
   text-align: center;
 }
 
+.credit-card{
+  width: 430px;
+  height: 270px;
+  border-radius: 10px;
+  position: relative;
+  background-color: blue;
+  bottom:30px;
+}
+
+.credit-card .card{
+  width: 100%;
+  height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.credit-card .card-details-container{
+  padding: 25px;
+  width: 360px;
+}
+.credit-card .detail-container{
+  height: 55px;
+}
+
+.credit-card .number-display{
+background-color: rgb(255,255,255),0.5;
+width: 360px;
+height: 60px;
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.credit-card h2, .credit-card p{
+  color: rgb(255,255,255);
+  margin: 5px;
+}
+
 
