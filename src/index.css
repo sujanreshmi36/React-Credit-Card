@@ -104,19 +104,21 @@ align-items: center;
 .credit-card .card-details-container{
   padding: 25px;
   width: 360px;
+  height: 220px;
 }
 .credit-card .detail-container{
   height: 55px;
 }
 
 .credit-card .number-display{
-background-color: rgb(255,255,255),0.5;
+background-color: rgba(255, 255, 255, 0.5);
 width: 360px;
 height: 60px;
 font-size: 25px;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 40px;
 }
 
 .credit-card h2, .credit-card p{
@@ -124,4 +126,24 @@ align-items: center;
   margin: 5px;
 }
 
+.credit-card #cvv-display{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end ;
+}
 
+.credit-card #cvv-display p{
+  padding: 35px;
+  font-size: 30px;
+}
+
+.visa-front-side{
+  background-image: url(./images/frontside.jpg);
+  background-size: 100%;
+}
+
+.visa-back-side{
+  background-image: url(./images/backside.jpg);
+  background-size: 100%;
+
+}
